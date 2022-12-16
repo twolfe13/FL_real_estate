@@ -5,7 +5,7 @@ import pandas as pd
 ###        Find out what "Recently Sold" filter means
 
 """
-Realtor.com STEPS in APIFY to get data, for recently sold single-family homes in Fort Myers
+Realtor.com scrapes in APIFY to get data, for recently sold single-family homes in Fort Myers
 
 
 Add a URL for each PAGE to be scraped to Apify (10-15 should be)
