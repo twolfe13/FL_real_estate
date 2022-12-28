@@ -5,7 +5,7 @@ import pandas as pd
 ###        Find out what "Recently Sold" filter means
 
 """
-Realtor.com scrapes in APIFY to get data, for recently sold single-family homes in Fort Myers
+Realtor.com scrapes APIFY to get data, for recently sold single-family homes in Fort Myers
 
 
 Add a URL for each PAGE to be scraped to Apify (10-15 should be)
@@ -68,7 +68,7 @@ data_types = sept_realtor_data.dtypes
 
 
 # Full inspection of the data, with memory usage
-data_info = nov_realtor_data.info()
+data_info = sept_realtor_data.info()
 #print(data_info)
 
 """
@@ -76,21 +76,25 @@ Last sold price logic
 """
 
 # Set data for Month of lastSoldPrice (Sept, Oct....)
-last_sold_price = dec_realtor_data['lastSoldPrice'] 
-#print(last_sold_price)
+last_sold_price = sept_realtor_data['lastSoldPrice'] 
+print(last_sold_price)
+
+# Identify which houses were sold for over $1M.  
+## For September data, using describe.() we observe 486 "False" out of 500 count, leaving 14 who must be over $1M
+sept_realtor_data['lastSoldPrice'] = sept_realtor_data['lastSoldPrice'] > 1000000
+last_sold_price = sept_realtor_data['lastSoldPrice'].sort_values(ascending=False) 
+print(last_sold_price.describe())
 
 
 # Calculate the mean total last sold price
 total_sold = last_sold_price.mean()
-print(total_sold)
-
+#print(total_sold)
+#
 total_sold_median = last_sold_price.median()
-print(total_sold_median)
+#print(total_sold_median)
 
 url = sept_realtor_data['url']
 #print(url)
 
 summary = sept_realtor_data.describe() 
 #print(summary)
-
-
