@@ -17,6 +17,25 @@ SEARCH CRITERIA:
 
 """
 
+"""
+LIST OF URLS: 
+
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-2?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-3?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-4?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-5?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-6?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-7?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-8?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-9?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-10?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-11?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-12?view=map&pos=26.635728,-81.913987,26.529649,-81.790391,13&qdm=true
+https://www.realtor.com/realestateandhomes-search/Florida/beds-2-3/type-single-family-home/show-recently-sold/sby-1/pg-13?view=map&pos=26.642927,-81.934586,26.522418,-81.769792,13&qdm=true
+
+
+"""
+
 
 """
 # Create Dataframe from CSV
