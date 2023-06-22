@@ -3,7 +3,7 @@
 
 # What it does 
 
-Realtor.com scraps APIFY to get data, for recently sold single-family homes in Fort Myers.  Returns data in a specific geographical area defined by coordinates (via Google Maps on realtor.com).  In this project, an area in Fort Myers area is examined.
+APIFY scrapes realtor.com to get data, for recently sold single-family homes in Fort Myers.  Returns data in a specific geographical area defined by coordinates (via Google Maps on realtor.com).  In this project, an area in Fort Myers area is examined.
 
 Add a URL for each PAGE to be scraped to Apify (10-15 pages should be)
 
